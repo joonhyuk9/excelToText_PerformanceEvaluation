@@ -2,7 +2,7 @@ import pandas as pd
 import pyperclip
 
 # 엑셀 파일 경로 설정
-example_file_path = '수행_예시.xlsx'
+example_file_path = '수행_서식.xlsx'
 
 # 엑셀 파일 읽기 (첫 번째 시트 기준)
 df = pd.read_excel(example_file_path)
@@ -25,7 +25,6 @@ def convert_to_text(df):
         else:
             text_output += "None\n"
     
-    text_output += "\n⬇️더 자세히 보기(Notion)\nhwasu206.kro.kr"
     return text_output
 
 # 변환된 텍스트를 클립보드에 복사 & 프린트
