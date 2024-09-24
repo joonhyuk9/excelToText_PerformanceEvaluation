@@ -28,7 +28,6 @@ def convert_to_text_week(df, header_value):
         else:
             text_output += "None\n"
     
-    text_output += "\n⬇️더 자세히 보기(Notion)\nhwasu206.kro.kr"
     return text_output
 
 # 특정 요일의 텍스트 변환 함수
@@ -47,7 +46,6 @@ def convert_to_text_day(df, day_index, day_name):
     else:
         text_output += "None\n"
     
-    text_output += "\n⬇️ 자세히 보기(Notion)\nhwasu206.kro.kr"
     return text_output
 
 # 클립보드에 텍스트 복사 및 화면에 표시
